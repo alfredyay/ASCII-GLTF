@@ -10,7 +10,7 @@ class AsciiEffect {
         const bBlock = options['block'] || false; // Blocky character style
         const bInvert = options['invert'] || false; // Invert colors
         const strResolution = options['strResolution'] || 'low';
-        const fontFamily = options['fontFamily'] || 'Consolas, monospace'; // Custom font family
+        const fontFamily = options['fontFamily'] || '"Arial", sans-serif'; // Custom font family
 
         let width, height;
 
