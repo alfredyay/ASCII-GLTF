@@ -3,7 +3,7 @@ class AsciiEffect {
     constructor(renderer, charSet = ' .:-=+*#%@', options = {}) {
 
         // Options for customizing the effect
-        const fResolution = options['resolution'] || 0.15; // Resolution for ASCII art
+        const fResolution = options['resolution'] || 0.4; // Resolution for ASCII art
         const iScale = options['scale'] || 1; // Scale of ASCII characters
         const bColor = options['color'] || false; // Enable color rendering
         const bAlpha = options['alpha'] || false; // Enable transparency
